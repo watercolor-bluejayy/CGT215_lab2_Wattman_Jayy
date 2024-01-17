@@ -16,20 +16,20 @@ int main()
     cout << "For x" << endl;
     cout << endl; //this is how to make a line break
 
-    cout << "Please submit a value for A: ";
+    cout << "Please enter a value for A: ";
     cin >> A; //this asks for the user to input a value for variable A, which we established is a float type variable in line 10
 
 
-    cout << "Please submit a value for B: ";
+    cout << "Please enter a value for B: ";
     cin >> B;
     cout << endl;
 
-    cout << "Solving Ax+B=0 for x..." << endl;
+    cout << "Solving " << A << "x+" << B << "=0 for x" << endl; // to achieve the A and B changing to match the inputted values, sandwiching is the answer
     cout << endl;
 
     cout << "The answer is:" << endl;
 
-    x = -B / A; //variable you're solving for has to be first, that means you still have to do the algebra to get the equation simplified
+    x = (- B) / A; //variable you're solving for has to be first, that means you still have to do the algebra to get the equation simplified
     cout << "x=" << x << endl;
 }
 
