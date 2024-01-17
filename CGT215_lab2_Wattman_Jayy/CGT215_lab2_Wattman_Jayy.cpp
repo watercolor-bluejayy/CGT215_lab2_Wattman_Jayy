@@ -3,9 +3,21 @@
 
 #include <iostream>
 
+using namespace std; // allows you to use input and output functions cin and cout without needing to make em like std::cin or std:cout everytime
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    float A; //declares float type variable A, where float means that it can hold decimal numbers
+    float B;
+    float X;
+
+    cout << "Please submit a value for A: ";
+    cin >> A;
+
+    cout << "A=" << A << endl;
+
+    B = (A * 4) + 1;
+    cout << "And B=" << B << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
