@@ -14,17 +14,20 @@ int main()
     cout << "Hi, My name is Jayy and I'm going to solve the equation: " << endl; //endl acts like pressing the enter button, it ends the line
     cout << "Ax + B = 0" << endl;
     cout << "For x" << endl;
+    cout << endl; //this is how to make a line break
 
     cout << "Please submit a value for A: ";
-    cin >> A; //I believe this allows for the user to input a value for variable A, which we established in line 10
+    cin >> A; //this asks for the user to input a value for variable A, which we established is a float type variable in line 10
 
 
     cout << "Please submit a value for B: ";
     cin >> B;
+    cout << endl;
 
     cout << "Solving Ax+B=0 for x..." << endl;
-    cout << "The answer is:" << endl;
+    cout << endl;
 
+    cout << "The answer is:" << endl;
 
     x = -B / A; //variable you're solving for has to be first, that means you still have to do the algebra to get the equation simplified
     cout << "x=" << x << endl;
