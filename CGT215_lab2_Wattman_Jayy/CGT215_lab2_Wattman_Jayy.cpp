@@ -8,8 +8,12 @@ using namespace std; // allows you to use input and output functions cin and cou
 int main()
 {
     float A; //declares float type variable A, where float means that it can hold decimal numbers
-    float B;
+    float B; //same logic applies here as the previous line
     float X;
+
+    cout << "Hi, My name is Jayy and I'm going to solve the equation: " << endl; 
+    cout << "Ax + B = 0" << endl;
+    cout << "For x" << endl;
 
     cout << "Please submit a value for A: ";
     cin >> A;
