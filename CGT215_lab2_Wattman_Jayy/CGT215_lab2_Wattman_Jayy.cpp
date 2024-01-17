@@ -9,19 +9,25 @@ int main()
 {
     float A; //declares float type variable A, where float means that it can hold decimal numbers
     float B; //same logic applies here as the previous line
-    float X;
+    float x;
 
-    cout << "Hi, My name is Jayy and I'm going to solve the equation: " << endl; 
+    cout << "Hi, My name is Jayy and I'm going to solve the equation: " << endl; //endl acts like pressing the enter button, it ends the line
     cout << "Ax + B = 0" << endl;
     cout << "For x" << endl;
 
     cout << "Please submit a value for A: ";
-    cin >> A;
+    cin >> A; //I believe this allows for the user to input a value for variable A, which we established in line 10
 
-    cout << "A=" << A << endl;
 
-    B = (A * 4) + 1;
-    cout << "And B=" << B << endl;
+    cout << "Please submit a value for B: ";
+    cin >> B;
+
+    cout << "Solving Ax+B=0 for x..." << endl;
+    cout << "The answer is:" << endl;
+
+
+    x = -B / A; //variable you're solving for has to be first, that means you still have to do the algebra to get the equation simplified
+    cout << "x=" << x << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
